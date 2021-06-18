@@ -1,0 +1,7 @@
+A,B = map(int,input().split())
+
+mlkal = A / 100
+
+ans = mlkal * B
+
+print(ans)

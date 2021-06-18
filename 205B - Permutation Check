@@ -1,0 +1,13 @@
+N = int(input())
+A = list(map(int, input().split()))
+txt = 'Yes'
+
+for i in range(N):
+    if not i+1 in A:
+        txt = 'No'
+        break
+        exit
+
+print(txt)
+
+
